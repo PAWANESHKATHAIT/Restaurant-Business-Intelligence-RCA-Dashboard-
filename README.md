@@ -24,7 +24,6 @@ Built as a portfolio project simulating a real restaurant analytics platform (Sw
 |---|---|
 | `Business_Performance.csv` | Raw daily business data per outlet (sales, orders, ratings, funnel metrics, mealtime split, etc.) |
 | `Ads_Performance.csv` | Raw daily ad campaign data per outlet (campaign, product type, segment, spend, sales) |
-| `Customer_Master.csv` | Raw customer-level reference data |
 | `Source.py` | Extracts data from the source Excel/CSV files and loads it into the MySQL database |
 | `CreateTable.sql` | Creates the staging tables in the database that hold the raw, unprocessed data |
 | `DataCleaning.sql` | Cleans the staged data using SQL — removes duplicates, standardizes formats, drops unusable columns — and produces the final analysis-ready tables |
